@@ -1,9 +1,12 @@
-# BACKEND task setup
-# https://github.com/project-bnb/laravel-db-bnb
-ORGANIZATION="project-bnb"
-REPO="laravel-db-bnb"
+# TITLE 
+# SITE>...
+ORGANIZATION="CHANGETONAMEORGANIZATION"
+REPO="CHANGETONAMEREPO"
 
 create_issue() {
+
+
+  gh issue create --repo "$ORGANIZATION/$REPO" --title "$title" --body "$description"
 
 }
 
