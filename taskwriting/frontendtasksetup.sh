@@ -132,7 +132,7 @@ EOF
 while true; do
   echo "crea la issue? (s/n)"
   read -r choice
-  if [[ "$choice" == "s" ]]; then
+  if [ "$choice" = "s" ]; then
     create_issue
   else
     echo "Uscita dallo script."
