@@ -12,6 +12,7 @@ Questo readME e' stato creato per documentare il progetto, ogni giorno verranno 
 
 
 Guardare [Pianification frontend](https://github.com/project-bnb/project-bnb-reports/blob/main/Pianification/frontend.md)
+---
 ![image](https://github.com/user-attachments/assets/8a5d65a6-e4d1-4a28-9dc7-fb8948fea7d9)
 
 ![image](https://github.com/user-attachments/assets/8c635d09-3b45-402c-91a8-74b85e451e42)
