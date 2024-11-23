@@ -15,6 +15,7 @@ Guardare [Pianification frontend](https://github.com/project-bnb/project-bnb-rep
 ---
 ![image](https://github.com/user-attachments/assets/6acb91d1-f3e3-4ede-b809-9b68354670b9)
 
+![image](https://github.com/user-attachments/assets/f99e8961-0f67-495e-a4ef-0a5922d6b324)
 
 
 
