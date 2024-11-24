@@ -19,7 +19,7 @@ Creare i filtraggi per le API, che dovranno includere i seguenti filtri:
 - Prezzo
 EOF
   )
-  gh issue create --repo "$ORGANIZATION/$REPO" --title "$title" --body "$body"
+  curl -X POST -H "Authorization: token $GITHUB_TOKEN" -H "Content-Type: application/json" -d "{\"title\":\"$title\",\"body\":\"$body\"}" https://api.github.com/repos/$ORGANIZATION/$REPO/issues
 
 }
 

@@ -4,10 +4,18 @@ ORGANIZATION="CHANGETONAMEORGANIZATION"
 REPO="CHANGETONAMEREPO"
 
 create_issue() {
-
-
+ 
+  local title="test | test"
+  local description=$(cat <<EOF
+  test sag
+  \`\`\`json
+  {
+    "test": "test"
+  }
+  \`\`\`
+EOF
+  )
   gh issue create --repo "$ORGANIZATION/$REPO" --title "$title" --body "$description"
-
 }
 
 while true; do
