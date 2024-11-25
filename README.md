@@ -1,6 +1,12 @@
 # project-bnb-reports
 
-Questo readME e' stato creato per documentare il progetto, ogni giorno verranno indicati task completati e task su cui stiamo lavorando.
+Questa repository contiene documentazioni, codice sorgente e reports del progetto.
+
+Le tecnologie utilizzate sono:
+
+- **Frontend**: vue.js, tailwindCSS
+- **Backend**: Laravel, MySQL
+- **API**: RESTful
 
 ## IMPORTANT TASK 18-11-2024
 

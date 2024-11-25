@@ -1,4 +1,4 @@
-# filter api
+# filter api LAVORO IN CORSO
 
 numero di stanze:
 /api/apartments/filter?rooms=2
@@ -32,3 +32,8 @@ https://stackoverflow.com/questions/21378889/how-to-filter-many-to-many-structur
 
 // come filtrare per servizi e sponsorizzazioni?
 https://stackoverflow.com/questions/71369426/how-to-create-a-filter-by-category-in-many-to-many-relationship-in-laravel
+
+http://192.168.1.101:9000/api/apartments/filter?rooms=2
+
+/api/apartments/filter?rooms=3&beds=2&services[]=1&services[]=2&sponsorships[]=1
+
