@@ -5,80 +5,119 @@ REPO="BoolBnB-front"
 
 create_issue() {
  
-  local title="TOMTOM | Library"
+  local title="Stilizzare la pagina per lo sponsorizzazione"
   local description=$(cat <<EOF
-# TOMTOM | Library
 
-## Preambolo
-Ho letto un po' di documentazione; eventualmente non e' necessario sapere tutto della documentazione, quindi usateli solo se c'e' bisogno. Abbiamo le milestone che contengono cio' che serve, ma ho capito un pochino come funziona la libreria. Prima di cominciare, lascio dei link utili:
-- **Documentazione TOMTOM**: [Link per la documentazione](https://developer.tomtom.com/maps-sdk-web-js/overview/product-information/introduction)
-- **Video su YouTube**: [Link per il video](https://www.youtube.com/watch?v=njJdDjdwSIE&t=2si)
-- **StackOverflow**: [Link per Overflow](https://stackoverflow.com/questions/70748194/how-can-i-add-marker-tomtom-in-vuejso)
-- **TOMTOM Forum**: [Mini tutorial](https://developer.tomtom.com/blog/build-different/displaying-multiple-map-locations-vue-and-tomtom-web-sdk/) (Qui usano la CDN, ma noi useremo la libreria; alla fine e' uguale)
+  - fare il layout della pagina per lo sponsorizzazione
+EOF
+  )
+  gh issue create --repo "$ORGANIZATION/$REPO" --title "$title" --body "$description"
 
-## Description
-Creare un componente che permette di visualizzare una mappa dell'appartamento con dei marker.
+  local title="Aggiungere un asterisco ai campi obbligatori nella pagina di registrazione"
+  local description=$(cat <<EOF
 
-### Milestone 1:
-- Installare la libreria:
-  ```bash
-  npm i @tomtom-international/web-sdk-maps
-  ```
-- Creare un file `.env` e inserire la key che si trovera' nella descrizione del gruppo WhatsApp:
-  ```bash
-  VUE_APP_TOMTOM_KEY=latuakey
-  ```
+  - aggiungere un asterisco ai campi obbligatori nella pagina di registrazione
+EOF
+  )
+  gh issue create --repo "$ORGANIZATION/$REPO" --title "$title" --body "$description"
 
-### Milestone 2:
-- Creare un componente che permette di visualizzare una mappa.
-  
-  **Codice esempio**: eventualmente qui vi passo un codice esempio e ovviamente da adattare.
-  ```vue
-  <script>
-  import tt from '@tomtom-international/web-sdk-maps'
+  local title="Modificare la lingua nella pagina di registrazione"
+  local description=$(cat <<EOF
 
-  export default {
-    data() {
-      return {
-        map: null,
-      }
-    },
-    mounted() {
-      this.initializeMap()
-    },
-    methods: {
-      initializeMap() {
-        const map = tt.map({
-          // ⛔️ Please use your own API key from Tomtom Developer Portal.
-          key: 'latuakey',
+  - modificare la lingua nella pagina di registrazione
+EOF
+  )
+  gh issue create --repo "$ORGANIZATION/$REPO" --title "$title" --body "$description"
+  local title="Aggiungere l'autocompletamento della barra di ricerca"
+  local description=$(cat <<EOF
 
-          container: this.$refs.mapRef,
-          center: [-120.72217631449985, 42.73919549715691],
-          zoom: 10,
-        })
+  - aggiungere l'autocompletamento alla barra di ricerca
+EOF
+  )
+  gh issue create --repo "$ORGANIZATION/$REPO" --title "$title" --body "$description"
+  local title="responsive frontend"
+  local description=$(cat <<EOF
 
-        new tt.Marker().setLngLat([-120.72217631449985, 42.73919549715691]).addTo(map)
+  - fare il responsive del frontend
+EOF
+  )
+  gh issue create --repo "$ORGANIZATION/$REPO" --title "$title" --body "$description"
 
-        this.map = Object.freeze(map)
-      },
-    },
-  }
-  </script>
-  ```
+  local title="gestire views"
+  local description=$(cat <<EOF
 
-!!!ATTENZIONE!!!
-- La key e' da sostituire con quella che si trova nella descrizione del gruppo WhatsApp. **UTILIZZARE .env per passare la key.**
+- quando si clicca su un appartamento aumenta la view di +1 da aggiungere nel backend
+- parte due gestire anche gli IP potresti usare questo https://ip-api.com/#JSON
+EOF
+  )
+  gh issue create --repo "$ORGANIZATION/$REPO" --title "$title" --body "$description"
 
-Permette di visualizzare una mappa:
-- Creare un marker, da cambiare la posizione con latitude e longitude ricevute da `get api/apartments`, come gestire la view passate tramite props o store latitude e longitude.
-  ```vue
-  container: this.$refs.mapRef,
-  center: [-120.72217631449985, 42.73919549715691],
-  zoom: 10,
-  ```
+  local title="backend da stilizzare tutto!"
+  local description=$(cat <<EOF
 
-Da PHP io ho le tabelle cosi', quindi da considerare che sono float; questa informazione e' in caso di dubbi:
+- stilizzare tutto il backend
+EOF
+  )
+  gh issue create --repo "$ORGANIZATION/$REPO" --title "$title" --body "$description"
+  local title="revisione grafica e lingue"
+  local description=$(cat <<EOF
 
+- fare la revisione grafica e delle lingue controllare se il responsive funziona la grafica e' bella e le lingue sono corrette
+EOF
+  )
+  gh issue create --repo "$ORGANIZATION/$REPO" --title "$title" --body "$description"
+  local title="controllo totale requisiti tecnici"
+  local description=$(cat <<EOF
+
+- controllare che siano stati rispettati tutti i requisiti tecnici
+EOF
+  )
+  gh issue create --repo "$ORGANIZATION/$REPO" --title "$title" --body "$description"
+  local title="controllo totale requisiti funzionali"
+  local description=$(cat <<EOF
+
+- controllare che siano stati rispettati tutti i requisiti funzionali
+EOF
+  )
+  gh issue create --repo "$ORGANIZATION/$REPO" --title "$title" --body "$description"
+  local title="controllare eventuali bug testare tutto"
+  local description=$(cat <<EOF
+
+- controllare eventuali bug testare tutto
+EOF
+  )
+  gh issue create --repo "$ORGANIZATION/$REPO" --title "$title" --body "$description"
+
+  local title="Implementare ricerca nel raggio di 20km"
+  local description=$(cat <<EOF
+- Aggiungere filtro per ricerca appartamenti nel raggio di 20km da un indirizzo
+- Integrare con l'autocompletamento esistente
+EOF
+  )
+  gh issue create --repo "$ORGANIZATION/$REPO" --title "$title" --body "$description"
+
+  local title="Completare validazione frontend"
+  local description=$(cat <<EOF
+- Aggiungere asterischi ai campi obbligatori
+- Implementare validazione client-side nella registrazione
+- Uniformare la validazione in tutto il frontend
+EOF
+  )
+  gh issue create --repo "$ORGANIZATION/$REPO" --title "$title" --body "$description"
+
+  local title="Review finale UI/UX"
+  local description=$(cat <<EOF
+- Controllare responsive design su tutti i dispositivi
+- Verificare consistenza delle lingue in tutte le pagine
+- Revisione generale della grafica
+EOF
+  )
+  gh issue create --repo "$ORGANIZATION/$REPO" --title "$title" --body "$description"
+
+  local title="Implementare filtri servizi aggiuntivi"
+  local description=$(cat <<EOF
+- Aggiungere più opzioni di filtro per i servizi
+- Migliorare UX dei filtri
 EOF
   )
   gh issue create --repo "$ORGANIZATION/$REPO" --title "$title" --body "$description"

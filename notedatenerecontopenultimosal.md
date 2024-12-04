@@ -3,9 +3,9 @@
 - in piu' eventualmente statistiche
 
 *SAL DETTO*
-- l'autocompletamento non funziona correttamente
-- campi obbligatori aggiungere asterischi, implementare validazione front-end nella registrazione
-- modificare la lingua nella registrazione "controllare tutte le lingue"
+- l'autocompletamento non funziona correttamente fatto ora!!!!
+- campi obbligatori aggiungere asterischi, implementare validazione front-end nella registrazione non ancora fatto
+- modificare la lingua nella registrazione "controllare tutte le lingue" fatto! 
 - l'autocompletamento del create deve esserci anche nella ricerca del frontend. Devo scrivere una via qualunque e da quella via nel raggio di 20 km devono uscire tutti gli appartamenti.
 - Aggiungere più filtri dei servizi
 
@@ -69,3 +69,8 @@ ricevuti
 sponsorizzare il proprio appartamento - backoffice deve essere mostrato che sponsor si hanno
 ● (RF8) 🟠Permettere ai proprietari di appartamento registrati di vedere
 statistiche dei propri appartamenti - da fare views backend
+
+
+filtro sistemato refattorizzato
+grafica fatta backend
+responsive fatto 
