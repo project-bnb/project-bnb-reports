@@ -46,7 +46,9 @@ Le tecnologie utilizzate sono:
 
 ## Diagrammi e Struttura
 ### Info su task (da considerare che tutti hanno fatto tutto)
+# [FRONTEND](https://github.com/orgs/project-bnb/projects/1/views/2)
 ![image](https://github.com/user-attachments/assets/4cffac4f-7286-4cef-8cce-c69e02825319)
+# [BACKEND](https://github.com/orgs/project-bnb/projects/3/views/3)
 ![image](https://github.com/user-attachments/assets/4b4c6e3f-29a6-4a91-ba1e-eb2d3d8e7faf)
 
 ![image](https://github.com/user-attachments/assets/6acb91d1-f3e3-4ede-b809-9b68354670b9)
