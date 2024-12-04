@@ -8,22 +8,51 @@ Le tecnologie utilizzate sono:
 - **Backend**: Laravel, MySQL
 - **API**: RESTful
 
-## IMPORTANT TASK 18-11-2024
+## Cronologia Task Completati
 
-- [x] Relational DB Diagram
+### 04/12/2024
+- 🔄 RT3: Implementazione sistema pagamenti Braintree (In Progress)
+- 🔄 RT4: Review finale responsive design
+- 🔄 RF7: Sistema sponsorizzazioni in backoffice
+- 🔄 RF8: Implementazione statistiche e views
 
-## IMPORTANT TASK 22-11-2024
+### 03/12/2024
+- ✅ RT1: Completata validazione client-side
+- ✅ RT5: Implementati filtri di ricerca senza refresh
+- ✅ RF5: Sistema messaggistica proprietari
+- ✅ RF6: Visualizzazione messaggi in backend
 
-- [x] creare CRUD
+### 02/12/2024
+- ✅ RT2: Implementato salvataggio informazioni geografiche
+- ✅ RF3: Sistema di ricerca appartamenti
+- ✅ RF4: Visualizzazione dettagli appartamento
+- ✅ Responsive design base completato
 
+### 01/12/2024
+- ✅ RF1: Sistema di registrazione proprietari
+- ✅ RF2: Form creazione e gestione appartamenti
+- ✅ Setup iniziale filtri di ricerca
+- ✅ Implementazione base dashboard proprietario
 
-Guardare [Pianification frontend](https://github.com/project-bnb/project-bnb-reports/blob/main/Pianification/frontend.md)
----
+### 22/11/2024
+- ✅ CRUD operations completate
+- ✅ Setup API endpoints base
+- ✅ Implementazione form base
+
+### 18/11/2024
+- ✅ Relational DB Diagram completato
+- ✅ Setup iniziale progetto
+- ✅ Definizione struttura database
+
+## Diagrammi e Struttura
+### Info su task (da considerare che tutti hanno fatto tutto)
 ![image](https://github.com/user-attachments/assets/4cffac4f-7286-4cef-8cce-c69e02825319)
 ![image](https://github.com/user-attachments/assets/4b4c6e3f-29a6-4a91-ba1e-eb2d3d8e7faf)
-![image](https://github.com/user-attachments/assets/6acb91d1-f3e3-4ede-b809-9b68354670b9)
 
+![image](https://github.com/user-attachments/assets/6acb91d1-f3e3-4ede-b809-9b68354670b9)
 ![image](https://github.com/user-attachments/assets/81174018-c314-4b50-b51a-be3302b133d9)
+
+Guardare [Pianification frontend](https://github.com/project-bnb/project-bnb-reports/blob/main/Pianification/frontend.md)
 
 
 
