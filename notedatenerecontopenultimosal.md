@@ -50,8 +50,8 @@ da fare entro domani sera:
 Controllo totale Requisiti tecnici
 RT1 ✅Client-side Validation
 RT2 ✅Salvataggio informazioni di geografiche
-RT3 ⛔Sistema di Pagamento
-RT4 🟠Il sito è responsive - serve revisione
+RT3 ✅Sistema di Pagamento
+RT4 ✅Il sito è responsive - serve revisione
 RT5 ✅La ricerca degli appartamenti nella pagina dedicata e l’applicazione dei filtri
 avvengono senza il refresh della pagina.
 
