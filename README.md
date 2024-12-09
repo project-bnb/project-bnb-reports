@@ -58,6 +58,15 @@ Le tecnologie utilizzate sono:
 
 Guardare [Pianification frontend](https://github.com/project-bnb/project-bnb-reports/blob/main/Pianification/frontend.md)
 
+Project Screenshots
+![Screenshot 2024-12-09 113724](https://github.com/user-attachments/assets/44bb4be9-6175-414d-92f4-ae61ce49b5fb)
+
+![Screenshot 2024-12-09 113711](https://github.com/user-attachments/assets/2ec86771-e208-4db5-9979-229654fb4a8e)
+![Screenshot 2024-12-09 113700](https://github.com/user-attachments/assets/88f8dc85-5715-4d55-b455-457eed3edd44)
+![Screenshot 2024-12-09 113650](https://github.com/user-attachments/assets/13e890cd-ba5d-42d8-a8ed-c0d5ad27693a)
+
+![Screenshot 2024-12-09 113738](https://github.com/user-attachments/assets/6d3c7692-64d8-4cf4-8e20-48aab20e395a)
+
 
 
 
