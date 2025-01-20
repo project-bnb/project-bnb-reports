@@ -1,4 +1,4 @@
-# project-bnb-reports
+# project-bnb-reports / FIN
 
 Questa repository contiene documentazioni, codice sorgente e reports del progetto.
 
